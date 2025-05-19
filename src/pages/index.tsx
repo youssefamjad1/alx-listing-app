@@ -10,7 +10,7 @@ const Home: NextPage = () => {
       <Card
         title="Sample Property"
         description="A beautiful place to stay."
-        imageUrl="/assets/sample-property.jpg"
+        imageUrl="/public/assets/booking.jpg"
       />
       <Button label="Book Now" onClick={() => alert('Booking clicked!')} />
     </main>
