@@ -1,4 +1,3 @@
-// pages/index.tsx
 import type { NextPage } from 'next';
 import Card from '../components/common/Card';
 import Button from '../components/common/Button';
@@ -10,7 +9,7 @@ const Home: NextPage = () => {
       <Card
         title="Sample Property"
         description="A beautiful place to stay."
-        imageUrl="/public/assets/booking.jpg"
+        image="/assets/booking.jpg"
       />
       <Button label="Book Now" onClick={() => alert('Booking clicked!')} />
     </main>
